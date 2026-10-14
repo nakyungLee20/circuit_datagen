@@ -1,0 +1,4 @@
+# Versions present in the environment used for the offline validation checks.
+# Install an appropriate PyTorch CUDA build before this file when necessary.
+-r environment-tested.txt
+-e ./EAP-IG

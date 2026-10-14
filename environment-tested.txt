@@ -1,0 +1,15 @@
+# Python 3.11.14. Direct dependencies observed in the local mi environment.
+# This is a version snapshot, not a complete transitive or platform lockfile.
+# CPU/import/data-interface checks passed with these versions; GPU training was not rerun.
+torch==2.9.1
+transformers==4.57.3
+transformer-lens==2.16.1
+datasets==2.21.0
+accelerate==1.12.0
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.17.0
+matplotlib==3.10.8
+einops==0.8.1
+tqdm==4.67.1
+wandb==0.23.1

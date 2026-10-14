@@ -1,0 +1,4 @@
+# Optional dependencies for diversity selection and GradAlign reanalysis.
+# Install the core requirements first: pip install -r requirements.txt
+sentence-transformers==5.4.0
+scikit-learn==1.8.0

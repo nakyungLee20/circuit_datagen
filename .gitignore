@@ -1,0 +1,46 @@
+# Local-only directories requested for the public source tree.
+# No trailing slash: also match the existing checkpoints/logs symlinks.
+checkpoints
+logs
+notes
+/scripts
+/sccripts
+
+# Machine-local data, model cache, and generated experiment artifacts.
+/.hf_cache
+/results
+/circuit_results
+/data_gens/buckets
+/data_gens/pairs
+/artifacts
+
+# Supplemental outputs live below /results; local reports and drivers are in notes.
+# Keep the old artifact location ignored as well during migration.
+/rebuttal
+
+# Local credentials and model/array artifacts, including accidental source-tree outputs.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.npz
+*.npy
+*.bin
+
+# Python/runtime caches and local environments.
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+*.egg-info/
+wandb/
+*.log
